@@ -37,6 +37,8 @@
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
         });
     }, {offset: '80%'});
+	
+	
     
     
     // Porfolio isotope and filter

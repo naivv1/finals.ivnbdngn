@@ -2,7 +2,7 @@
 /********** General CSS ***********/
 /**********************************/
 body {
-    color: rgb(84, 85, 85);
+    color: #1c1c1c;
     background: #202833;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -692,6 +692,54 @@ a:focus {
 .experience .exp-col p {
     margin: 0;
 }
+
+/**********************************/
+/*********** Skills CSS **********/
+/**********************************/
+.skills {
+    position: relative;
+    padding: 60px 30px 30px 30px;
+    background: #f3f3f3;
+    border: #66fcf1;
+    border-bottom: 30px solid #202833;
+}
+
+.skills .skl-col {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skills .skl-col i {
+    font-size: 30px;
+    color: #66fcf1;
+    margin-bottom: 15px;
+}
+
+.skills .skl-col h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.experience .exp-col h4 {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.experience .exp-col h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.experience .exp-col p {
+    margin: 0;
+}
+
 
 
 /**********************************/
