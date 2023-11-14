@@ -573,8 +573,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #66fcf1;
-    border-bottom: 1px solid #66fcf1;
+
 }
 
 .experience .col-md-6:first-child .exp-col {
