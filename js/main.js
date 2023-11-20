@@ -72,7 +72,7 @@
         var link = document.createElement('a');
 
         // Set the download attribute with the desired file name
-        link.download = 'your_resume.pdf';
+        link.download = 'files/Resume-IvanBadiongan.docx';
 
         // Set the href attribute to the file path
         link.href = resumePath;
