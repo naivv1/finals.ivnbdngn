@@ -66,13 +66,13 @@
 
     $('.large-btn .btn:eq(0)').on('click', function () {
         // Replace 'path/to/your/resume.pdf' with the actual path to your resume file
-        var resumePath = 'path/to/your/resume.pdf';
+        var resumePath = 'files/Resume-IvanBadiongan.docx';
 
         // Create a virtual link element
         var link = document.createElement('a');
 
         // Set the download attribute with the desired file name
-        link.download = 'files/Resume-IvanBadiongan.docx';
+        link.download = 'Resume-IvanBadiongan.docx';
 
         // Set the href attribute to the file path
         link.href = resumePath;
