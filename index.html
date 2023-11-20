@@ -17,8 +17,33 @@
         <link href="lib/slick/slick-theme.css" rel="stylesheet">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
+        
         <link href="css/style.css" rel="stylesheet">
+
+	    <script>
+    document.getElementById('resumeBtn').addEventListener('click', function () {
+        // Replace 'path/to/your/resume.pdf' with the actual path to your resume file
+        var resumePath = 'path/to/your/resume.pdf';
+
+        // Create a virtual link element
+        var link = document.createElement('a');
+
+        // Set the download attribute with the desired file name
+        link.download = 'your_resume.pdf';
+
+        // Set the href attribute to the file path
+        link.href = resumePath;
+
+        // Append the link to the body
+        document.body.appendChild(link);
+
+        // Trigger a click on the link to start the download
+        link.click();
+
+        // Remove the link from the DOM
+        document.body.removeChild(link);
+    });
+</script>
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
