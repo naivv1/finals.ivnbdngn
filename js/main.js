@@ -63,6 +63,29 @@
         slidesToShow: 1,
         slidesToScroll: 1
     });
+
+    $('.large-btn .btn:eq(0)').on('click', function () {
+        // Replace 'path/to/your/resume.pdf' with the actual path to your resume file
+        var resumePath = 'path/to/your/resume.pdf';
+
+        // Create a virtual link element
+        var link = document.createElement('a');
+
+        // Set the download attribute with the desired file name
+        link.download = 'your_resume.pdf';
+
+        // Set the href attribute to the file path
+        link.href = resumePath;
+
+        // Append the link to the body
+        document.body.appendChild(link);
+
+        // Trigger a click on the link to start the download
+        link.click();
+
+        // Remove the link from the DOM
+        document.body.removeChild(link);
+    });
     
     
     // Back to top button
